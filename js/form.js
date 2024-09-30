@@ -119,7 +119,7 @@ managerlogin.onclick = function(){
     let username = usernamemanager.value;
     let password= passworldmanager.value;
     if(managername.includes(username) && managerpasswords.includes(password)){
-        window.location.href = "/managerDashbord.html";}
+        window.location.href = "managerDashbord.html";}
     else{
         text1.innerHTML="username or password are not found <br> please try again";
     }}}
@@ -154,7 +154,7 @@ function docterdetail(){
                 let username = usernamenurse.value;
                 let password= passwordnurse.value;
                 if(nursename.includes(username) && nursepasswords.includes(password)){
-                    window.location.href = "/Nurs.html";}
+                    window.location.href = "Nurs.html";}
                 else{
                     text3.innerHTML="username or password are not found <br> please try again";
                 }}}
